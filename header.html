@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome icon (links) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Styling css file -->
+    <link rel="stylesheet" href="test.css" />
+    <title>Header and footer</title>
+  </head>
+  <body>
+    <script>
+      const toggle = () => {
+        document.getElementById("nav").classList.toggle("navactive");
+      };
+    </script>
+    <header>
+      <div class="brand">
+        <span class="fa fa-cutlery"></span>
+        <h1>Food Pickup Service</h1>
+      </div>
+
+      <span class="fa fa-bars" id="menuIcon" onclick="toggle()"></span>
+
+      <div class="navbar" id="nav">
+        <div class="searchBox">
+          <input type="text" placeholder="Search here..." />
+          <span class="fa fa-search" id="searchIcon"></span>
+        </div>
+
+        <ul>
+          <li>
+            <span class="fa fa-home" id="headIcon"></span>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <span class="fa fa-user-circle" id="headIcon"></span>
+            <a href="#"> Profile </a>
+          </li>
+          <li>
+            <span class="fa fa-question-circle" id="headIcon"></span>
+            <a href="#"> Help </a>
+          </li>
+          <li>
+            <span class="fa fa-lock" id="headIcon"></span>
+            <a href="#"> Account </a>
+          </li>
+          <li>
+            <span class="fa fa-sign-out" id="headIcon"></span>
+            <a href="#"> Signout </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
