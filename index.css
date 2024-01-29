@@ -98,7 +98,12 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
   .brand h1 {
     font-size: 12px;
   }
@@ -201,6 +206,7 @@ header {
 
 .footer-ul ul a {
     color: #353030;
+    text-decoration: none;
 }
 
 .footer-ul ul li {
@@ -210,10 +216,12 @@ header {
     padding: 1.85%;
     height: 5px;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .footer-ul ul li:hover {
     height: 20px;
+    text-decoration: underline;
 }
 
 hr {
@@ -231,7 +239,7 @@ hr {
     margin: 20px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer {
     padding: 0px 0px;
   }
