@@ -68,7 +68,7 @@ header {
   z-index: 221;
 }
 .navbar ul {
-  width: 60%;
+  width: 70%;
   text-align: center;
 }
 .navbar ul li {
@@ -86,7 +86,7 @@ header {
 }
 .navbar ul li #headIcon {
   display: block;
-  font-size: 22px;
+  font-size: 24px;
 }
 .navbar ul li a {
   text-decoration: none;
@@ -132,7 +132,7 @@ header {
   #menuIcon {
     display: inline;
     position: fixed;
-    font-size: 25px;
+    font-size: 24px;
     margin-left: 88%;
     z-index: 222;
     float: right;
